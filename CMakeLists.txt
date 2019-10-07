@@ -17,11 +17,7 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 
 if(Boost_FOUND)
 
-    add_subdirectory(common)    
-
-    add_subdirectory(kite_dynamics)
-
-    add_subdirectory(kite_controller)
+    add_subdirectory(kite_dynamics)    
 
     #include_directories(${Boost_INCLUDE_DIRS})
 

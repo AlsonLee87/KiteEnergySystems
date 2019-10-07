@@ -1,4 +1,4 @@
-namespace KiteSystemSimulation {
+namespace kite_system_simulation {
 
 class KiteDynamicsManager
 {
